@@ -1,5 +1,5 @@
 image:
-  repository: twoje-repozytorium/locust
+  repository: bartoszduch/locust
   tag: latest
   pullPolicy: IfNotPresent
 
