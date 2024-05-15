@@ -1,0 +1,3 @@
+apiVersion: v2
+name: locust
+description: A Helm chart for Kubernetes

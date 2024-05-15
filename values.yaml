@@ -1,0 +1,14 @@
+image:
+  repository: twoje-repozytorium/locust
+  tag: latest
+  pullPolicy: IfNotPresent
+
+service:
+  type: LoadBalancer
+  port: 8089
+
+locust:
+  host: http://adres-twojej-aplikacji
+  users: 50
+  spawnRate: 10
+  runTime: 5m
